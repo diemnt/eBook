@@ -1,0 +1,6 @@
+1. install uwsgi for sudo (sudo pip install uwsgi)
+2. create folder contain uwsgi config : /etc/uwsgi/sites/metiz/uat
+3. create file service for systemd : /lib/systemd/system/uwsgi_metiz_uat.service
+4. create shortcut file serivce : sudo ln -s /lib/systemd/system/uwsgi_metiz_uat.service /etc/systemd/system/multi-user.target.wants/uwsgi_metiz_uat.service
+5. enable service : sudo systemctl enable uwsgi_metiz_uat
+6. start service : sudo systemctl start uwsgi_metiz_uat (start, stop, restart)

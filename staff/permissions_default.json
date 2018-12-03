@@ -1,0 +1,327 @@
+[
+  {
+    "model": "Badge",
+    "permissions": [
+      {
+        "title": "Thêm",
+        "key": "badge_add"
+      },
+      {
+        "title": "Sửa",
+        "key": "badge_edit"
+      },
+      {
+        "title": "Xóa",
+        "key": "badge_delete"
+      },
+      {
+        "title": "Active/Unactive",
+        "key": "badge_attr_is_active"
+      }
+    ]
+  },
+  {
+    "model": "Book",
+    "permissions": [
+      {
+        "title": "Thêm",
+        "key": "book_add"
+      },
+      {
+        "title": "Sửa",
+        "key": "book_edit"
+      },
+      {
+        "title": "Xóa",
+        "key": "book_delete"
+      },
+      {
+        "title": "Chuyển trạng thái sách sang Draft",
+        "key": "book_attr_status_draft"
+      },
+      {
+        "title": "Chuyển trạng thái sách sang Completed",
+        "key": "book_attr_status_completed"
+      },
+      {
+        "title": "Chuyển trạng thái sách sang Published",
+        "key": "book_attr_status_published"
+      },
+      {
+        "title": "Chuyển trạng thái sách sang Disabled",
+        "key": "book_attr_status_disabled"
+      }
+    ]
+  },
+  {
+    "model": "Book Category",
+    "permissions": [
+      {
+        "title": "Thêm",
+        "key": "bookcategory_add"
+      },
+      {
+        "title": "Sửa",
+        "key": "bookcategory_edit"
+      },
+      {
+        "title": "Xóa",
+        "key": "bookcategory_delete"
+      }
+    ]
+  },
+  {
+    "model": "Level",
+    "permissions": [
+      {
+        "title": "Thêm",
+        "key": "level_add"
+      },
+      {
+        "title": "Sửa",
+        "key": "level_edit"
+      },
+      {
+        "title": "Xóa",
+        "key": "level_delete"
+      }
+    ]
+  },
+  {
+    "model": "Notification",
+    "permissions": [
+      {
+        "title": "Thêm",
+        "key": "notification_add"
+      },
+      {
+        "title": "Sửa",
+        "key": "notification_edit"
+      },
+      {
+        "title": "Xóa",
+        "key": "notification_delete"
+      }
+    ]
+  },
+  {
+    "model": "Notification",
+    "permissions": [
+      {
+        "title": "Thêm",
+        "key": "notification_add"
+      },
+      {
+        "title": "Sửa",
+        "key": "notification_edit"
+      },
+      {
+        "title": "Xóa",
+        "key": "notification_delete"
+      }
+    ]
+  },
+  {
+    "model": "Organization",
+    "permissions": [
+      {
+        "title": "Thêm",
+        "key": "organization_add"
+      },
+      {
+        "title": "Sửa",
+        "key": "organization_edit"
+      },
+      {
+        "title": "Xóa",
+        "key": "organization_delete"
+      }
+    ]
+  },
+  {
+    "model": "Package Organization",
+    "permissions": [
+      {
+        "title": "Thêm",
+        "key": "packageorganization_add"
+      },
+      {
+        "title": "Sửa",
+        "key": "packageorganization_edit"
+      },
+      {
+        "title": "Xóa",
+        "key": "packageorganization_delete"
+      },
+      {
+        "title": "Published",
+        "key": "packageorganization_attr_status_published"
+      },
+      {
+        "title": "Published",
+        "key": "packageorganization_attr_status_unpublished"
+      }
+    ]
+  },
+  {
+    "model": "Package Personal",
+    "permissions": [
+      {
+        "title": "Thêm",
+        "key": "packagepersonal_add"
+      },
+      {
+        "title": "Sửa",
+        "key": "packagepersonal_edit"
+      },
+      {
+        "title": "Xóa",
+        "key": "packagepersonal_delete"
+      },
+      {
+        "title": "Published",
+        "key": "packagepersonal_attr_status_published"
+      },
+      {
+        "title": "Published",
+        "key": "packagepersonal_attr_status_unpublished"
+      }
+    ]
+  },
+  {
+    "model": "Personal",
+    "permissions": [
+      {
+        "title": "Thêm",
+        "key": "personal_add"
+      },
+      {
+        "title": "Sửa",
+        "key": "personal_edit"
+      },
+      {
+        "title": "Xóa",
+        "key": "personal_delete"
+      }
+    ]
+  },
+  {
+    "model": "Post",
+    "permissions": [
+      {
+        "title": "Thêm",
+        "key": "post_add"
+      },
+      {
+        "title": "Sửa",
+        "key": "post_edit"
+      },
+      {
+        "title": "Xóa",
+        "key": "post_delete"
+      }
+    ]
+  },
+  {
+    "model": "Question",
+    "permissions": [
+      {
+        "title": "Thêm",
+        "key": "question_add"
+      },
+      {
+        "title": "Sửa",
+        "key": "question_edit"
+      },
+      {
+        "title": "Xóa",
+        "key": "question_delete"
+      }
+    ]
+  },
+  {
+    "model": "Question Category",
+    "permissions": [
+      {
+        "title": "Thêm",
+        "key": "questioncategory_add"
+      },
+      {
+        "title": "Sửa",
+        "key": "questioncategory_edit"
+      },
+      {
+        "title": "Xóa",
+        "key": "questioncategory_delete"
+      }
+    ]
+  },
+  {
+    "model": "Quizz",
+    "permissions": [
+      {
+        "title": "Thêm",
+        "key": "quizz_add"
+      },
+      {
+        "title": "Sửa",
+        "key": "quizz_edit"
+      },
+      {
+        "title": "Xóa",
+        "key": "quizz_delete"
+      }
+    ]
+  },
+  {
+    "model": "Role",
+    "permissions": [
+      {
+        "title": "Thêm",
+        "key": "role_add"
+      },
+      {
+        "title": "Sửa",
+        "key": "role_edit"
+      },
+      {
+        "title": "Xóa",
+        "key": "role_delete"
+      }
+    ]
+  },
+  {
+    "model": "Staff",
+    "permissions": [
+      {
+        "title": "Thêm",
+        "key": "staff_add"
+      },
+      {
+        "title": "Sửa",
+        "key": "staff_edit"
+      },
+      {
+        "title": "Xóa",
+        "key": "staff_delete"
+      }
+    ]
+  },
+  {
+    "model": "Store",
+    "permissions": [
+      {
+        "title": "Thêm",
+        "key": "store_add"
+      },
+      {
+        "title": "Sửa",
+        "key": "store_edit"
+      },
+      {
+        "title": "Xóa",
+        "key": "store_delete"
+      }
+    ]
+  }
+]
